@@ -1,0 +1,32 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=handler",
+                    "--package=handler",
+                    "--manifest-path=Cargo.toml"
+                ],
+                "filter": {
+                    "kind": "bin"
+                }
+            },
+            "args": []
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug local function",
+            "program": "bash",
+            "args": ["scripts/deploy-local.sh"],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}

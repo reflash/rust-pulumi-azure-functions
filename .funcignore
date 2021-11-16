@@ -1,0 +1,11 @@
+.git*
+.vscode
+local.settings.json
+test
+scripts
+src
+.devcontainer
+target
+.cargo
+Cargo*
+README.md

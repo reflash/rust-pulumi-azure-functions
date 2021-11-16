@@ -1,0 +1,10 @@
+{
+  "azureFunctions.deploySubpath": ".",
+  "azureFunctions.projectLanguage": "Custom",
+  "azureFunctions.projectRuntime": "~3",
+  "debug.internalConsoleOptions": "neverOpen",
+  "search.exclude": {
+    "**/target": true
+  },
+  "lldb.verboseLogging": true
+}
