@@ -29,7 +29,8 @@
 		"matklad.rust-analyzer",
 		"tamasfe.even-better-toml",
 		"serayuzgur.crates",
-		"ms-azuretools.vscode-azurefunctions"
+		"ms-azuretools.vscode-azurefunctions",
+		"hashicorp.terraform"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
