@@ -9,3 +9,4 @@ target
 .cargo
 Cargo*
 README.md
+terraform/*

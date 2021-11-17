@@ -9,7 +9,7 @@
 
 # Deploy Azure
 - run `bash ./scripts/deploy-remote.sh` in terminal
-- check comments if any issues
+- check terraform files if any issues
 
 # Clean up
 - run `bash ./scripts/clean-remote.sh` in terminal
